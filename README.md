@@ -51,6 +51,7 @@ funcionalidaes dependiendo de las necesidades, las cuales estan dadas por: <p>
 
   <div align="center">
       <img src="imagen2.PNG"><img>
+      FIGURA 2
   </div>
 </p>
 
@@ -58,3 +59,15 @@ funcionalidaes dependiendo de las necesidades, las cuales estan dadas por: <p>
 <p id="poe">
 </p>
 <p>CONEXIÓN POE</p>
+Para esta conexión, conecte un cable M12, X-coded a la entrada POE de la camara ( entrada 1 en la figura 2) y a un switch POE. De igual forma, conecte el pc al switch por medio de ethernet.
+<p>
+una vez conectada camara al pc, se procede a optener la direcion ip de la camara por medio de <a href= "(https://flir.custhelp.com/app/answers/detail/a_id/1137/~/download-flir-ip-config-and-flir-ir-monitor)">FLIR IP_config</a> como se muestra en la Fifura 3
+</p>
+<p>
+
+  <div align="center">
+      <img src="imagen3.PNG"><img>
+      FIGURA 3
+  </div>
+</p>
+
