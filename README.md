@@ -70,4 +70,10 @@ una vez conectada camara al pc, se procede a optener la direcion ip de la camara
       FIGURA 3
   </div>
 </p>
+Una vez se tenga la ip de la camara, se copia y se pega en el navegador donde se podra ingresar a la interfaz, con usuario: admin y contraseña: admin o usuario: user y contraseña: user.
+
+NOTA:en caso de tener problemas con la ip de la camara, se debe configurar la ip estatatica por ejemplo: 192.168.0.20 con sub mascara por defecto en el pc y en el navegador escribir 192.168.0.10.
+
+Una vez que se ha logrado entrar a la interfaz, se muestarn varias pestañas donde se encontrarán las distintas heramientas y configuraciones de cada pestaña, estas pestañas estan dadas por: camera,settings,storage y help. Así, desde cada pestaña se configura dependiendo de las necesidades u uso que el usuario necesite. 
+
 
