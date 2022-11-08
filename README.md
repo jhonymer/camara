@@ -50,7 +50,7 @@ funcionalidaes dependiendo de las necesidades, las cuales estan dadas por: <p>
 <p>
 
   <div align="center">
-      <img src="imagen2.PNG"><img>
+      <img src="imagen2.png"><img>
       FIGURA 2
   </div>
 </p>
