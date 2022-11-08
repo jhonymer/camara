@@ -1,7 +1,7 @@
 <h1 align="center">Camara: Flir Ax series</h1>
 <p>
  <div alingn ="center">
- <img src= "imagen1.png"><img>
+ <img src= "imagen1.PNG"><img>
  </div>
  </p>
 
@@ -50,7 +50,7 @@ funcionalidaes dependiendo de las necesidades, las cuales estan dadas por: <p>
 <p>
 
   <div align="center">
-      <img src="imagen2.png"><img>
+      <img src="imagen2.PNG"><img>
       FIGURA 2
   </div>
 </p>
@@ -66,7 +66,7 @@ una vez conectada camara al pc, se procede a optener la direcion ip de la camara
 <p>
 
   <div align="center">
-      <img src="imagen3.PNG"><img>
+      <img src="imagen3.png"><img>
       FIGURA 3
   </div>
 </p>
