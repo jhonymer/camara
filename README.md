@@ -1,7 +1,7 @@
 <h1 align="center">Camara: Flir Ax series</h1>
 <p>
  <div alingn ="center">
- <img src= "imagen1.png"><img>
+ <img src= "imagen1.PNG"><img>
  </div>
  </p>
 
@@ -66,12 +66,16 @@ una vez conectada camara al pc, se procede a optener la direcion ip de la camara
 <p>
 
   <div align="center">
-      <img src="imagen3.PNG"><img>
+      <img src="imagen3.png"><img>
       FIGURA 3
   </div>
 </p>
 Una vez se tenga la ip de la camara, se copia y se pega en el navegador donde se podra ingresar a la interfaz, con:
+<<<<<<< HEAD
 #usuario: admin y contraseña: admin o usuario: user y contraseña: user.
+=======
+# usuario: admin y contraseña: admin o usuario: user y contraseña: user.
+>>>>>>> 099e1e8d79356b8329a40ee08b4eda623d4b985a
 
 NOTA:en caso de tener problemas con la ip de la camara, se debe configurar la ip estatatica por ejemplo: 192.168.0.20 con sub mascara por defecto en el pc y en el navegador escribir 192.16  8.0.10.
 
