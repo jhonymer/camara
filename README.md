@@ -70,10 +70,69 @@ una vez conectada camara al pc, se procede a optener la direcion ip de la camara
       FIGURA 3
   </div>
 </p>
-Una vez se tenga la ip de la camara, se copia y se pega en el navegador donde se podra ingresar a la interfaz, con usuario: admin y contraseña: admin o usuario: user y contraseña: user.
+Una vez se tenga la ip de la camara, se copia y se pega en el navegador donde se podra ingresar a la interfaz, con:
+#usuario: admin y contraseña: admin o usuario: user y contraseña: user.
 
-NOTA:en caso de tener problemas con la ip de la camara, se debe configurar la ip estatatica por ejemplo: 192.168.0.20 con sub mascara por defecto en el pc y en el navegador escribir 192.168.0.10.
+NOTA:en caso de tener problemas con la ip de la camara, se debe configurar la ip estatatica por ejemplo: 192.168.0.20 con sub mascara por defecto en el pc y en el navegador escribir 192.16  8.0.10.
 
 Una vez que se ha logrado entrar a la interfaz, se muestarn varias pestañas donde se encontrarán las distintas heramientas y configuraciones de cada pestaña, estas pestañas estan dadas por: camera,settings,storage y help. Así, desde cada pestaña se configura dependiendo de las necesidades u uso que el usuario necesite. 
 
+<p id="io">
+<p>CONEXIÓN I/O</p>
 
+<p>
+
+  <div align="center">
+    <img src="cable flir.png"><img>
+    <p align="center"><b>Figura 4.</b> Cable I/O</p>
+  </div>
+</p>
+
+
+
+<p>
+
+  <div align="center">
+    <img src="powerSupply.png"><img>
+    <p align="center"><b>Figura 5.</b> Alimentación</p>
+  </div>
+</p>
+
+Para la alimentacion de poder de la camara por medio de I/O, se deben conectar los pines 1 y 8 a la fuente de alimentacion, además, para poder obtener una salida digital se deben conectar a una alimentacion de entre 10 y 25V los pines 3 y 4.
+
+<p>
+
+  <div align="center">
+    <img src="ditOutConnections.png"><img>
+    <p align="center"><b>Figura 6.</b> Alimentación de la salida digital</p>
+  </div>
+</p>
+
+El pulso de salida se obtiene por el pin 5.
+
+
+<p id="salidaDigital">
+<p>CONFIGURACIÓN DE ALARMA POR SALIDA DIGITAL</p>
+
+Una vez dentro del web server de la camara, se deben seguir los siguientes pasos:
+
+1. seleccionar un recuadro de inspección
+2. seleccionar el icono de la camapana
+3. se activa la alarma
+4. se seleciona la condicion que activará la alarma
+5. se selecciona el valor de temperatura umbral
+6. se selecciona la duración que se debe cumplir dicha temperatura para que se active la alarma
+7. se selecciona si se desea guardar una image, video o ninguna (actualmente desconocemos la cantidad de memoria de la camara)
+8. se selecciona la duracion del pulso que se va a generar debido a la alarma
+9. se selecciona <i>digital out</i> como acción que se va a tomar una vez se active la alarma
+
+<p>
+
+  <div align="center">
+    <img src="activacionAlarma.png"><img>
+    <p align="center"><b>Figura 7.</b> Activación alarma</p>
+  </div>
+</p>
+
+
+La activacion de la alarma se peude verificar midiendo con el multimetro entre el pin 5 y tierra. Se debe tener en cuenta que son pulsos con una duracion finita.
